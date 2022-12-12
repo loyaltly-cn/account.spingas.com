@@ -1,0 +1,22 @@
+.sign-up-toggle-enter-active,
+.sign-in-toggle-enter-active,
+.sign-up-container-enter-active,
+.sign-in-container-enter-active{
+    transition: all .35s linear;
+}
+
+
+.sign-in-toggle-leave-to,
+.sign-in-container-enter-from,
+.sign-in-toggle-enter-from,
+.sign-in-container-enter-from{
+    transform: translateX(50%);
+}
+
+.sign-up-container-leave-to,
+.sign-up-toggle-enter-from,
+.sign-up-container-enter-from,
+.sign-up-toggle-enter-from{
+    transform: translateX(-50%);
+}
+
